@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 
-#define TEST_USART           USART2
-#define TEST_USART_CLOCK     RCC_USART2
+#define TEST_USART           USART1
+#define TEST_USART_CLOCK     RCC_USART1
 #define TEST_USART_GPIO_PORT GPIOA
-#define TEST_USART_GPIO_TX   GPIO2
+#define TEST_USART_GPIO_TX   GPIO9
 
 #define LED_OPEN_DRAIN       1
 #define LED_GPIO_PORT        GPIOC
